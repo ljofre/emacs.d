@@ -27,7 +27,7 @@
   '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
 ;; autopep8 al salvar el modulo cada vez
-(add-to-list 'load-path "/home/leonardo/.emacs.d/elpa/py-autopep8-20140224.1126")
+(add-to-list 'load-path "~/.emacs.d/elpa/py-autopep8-20140224.1126")
 (require 'py-autopep8)
 (add-hook 'before-save-hook 'py-autopep8-before-save)
 
