@@ -26,6 +26,13 @@
 (add-to-list 'package-archives
   '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
+;; marmalade, gestor de paquetes de emacs
+(require 'package)
+(add-to-list 'package-archives 
+    '("marmalade" .
+      "http://marmalade-repo.org/packages/"))
+(package-initialize)
+
 ;; autopep8 al salvar el modulo cada vez
 (add-to-list 'load-path "~/.emacs.d/elpa/py-autopep8-20140224.1126")
 (require 'py-autopep8)
@@ -49,6 +56,9 @@
 
 (autoload 'jedi:setup "jedi" nil t)
 
+;;Setup All you need to do is to call jedi:setup in python buffer. To
+;;do that, add the following in your Emacs configuration:
+
 (add-hook 'python-mode-hook 'jedi:setup)
 ;;If auto-completion is all you need, use jedi:ac-setup instead:
 
@@ -59,3 +69,11 @@
 ;;information.:
 
 (setq jedi:setup-keys t)
+
+;;elpy
+(elpy-enable)
+;; fix elpy bugs
+(define-key yas-minor-mode map (kbd "C-c k") 'yas-expand)
+;; fix another key binding bug in edit mode
+(define-key global-map (kbd "C-c o") 'iedit-mode)
+;; set backend

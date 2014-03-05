@@ -18,7 +18,15 @@
 	     (deferred ctable)))
  (fuzzy status "installed" recipe
 	(:name fuzzy :website "https://github.com/auto-complete/fuzzy-el" :description "Fuzzy matching utilities for GNU Emacs" :type github :pkgname "auto-complete/fuzzy-el"))
- (jedi status "required" recipe nil)
+ (jedi status "installed" recipe
+       (:name jedi :description "An awesome Python auto-completion for Emacs" :type github :pkgname "tkf/emacs-jedi" :build
+	      (("make" "requirements"))
+	      :build/windows-nt
+	      (("make" "requirements" "PYTHON=python.exe" "BINDIR=Scripts"))
+	      :build/berkeley-unix
+	      (("gmake" "requirements"))
+	      :submodule nil :depends
+	      (epc auto-complete)))
  (popup status "installed" recipe
 	(:name popup :website "https://github.com/auto-complete/popup-el" :description "Visual Popup Interface Library for Emacs" :type github :submodule nil :pkgname "auto-complete/popup-el"))
  (request status "installed" recipe
