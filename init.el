@@ -1,14 +1,15 @@
 (custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
- )
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(elpy-rpc-python-command "//anaconda/bin/python")
+ '(python-shell-interpreter "//anaconda/bin/python"))
 (custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
  )
 (add-hook 'LaTeX-mode-hook
       (lambda()
@@ -41,18 +42,6 @@
 ;; numero de linea
 (global-linum-mode t)
 
-;; elget repositories
-(add-to-list 'load-path "~/.emacs.d/el-get/el-get")
-
-(unless (require 'el-get nil 'noerror)
-  (with-current-buffer
-      (url-retrieve-synchronously
-       "https://raw.github.com/dimitri/el-get/master/el-get-install.el")
-    (goto-char (point-max))
-    (eval-print-last-sexp)))
-
-(add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
-(el-get 'sync)
 
 (autoload 'jedi:setup "jedi" nil t)
 
@@ -72,8 +61,10 @@
 
 ;;elpy
 (elpy-enable)
-;; fix elpy bugs
-(define-key yas-minor-mode map (kbd "C-c k") 'yas-expand)
-;; fix another key binding bug in edit mode
-(define-key global-map (kbd "C-c o") 'iedit-mode)
 ;; set backend
+(put 'upcase-region 'disabled nil)
+
+;; para que las variables de entorno de la shell de Emacs sean las
+;; mismas de Mac OSX s
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
