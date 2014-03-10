@@ -1,56 +1,86 @@
-((("BiGZS" .
-   [0 0 0 1 1])
-  ("BiG" .
+((("article" .
+   [0 0 0 0 0 0 1])
+  ("documentclass" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("inputenc" .
+   [0 0 0 1 0 0 0 0])
+  ("informe" .
+   [0 0 0 0 0 0 1])
+  ("end" .
    [1 0 0])
-  ("BigUS" .
-   [0 0 0 0 1])
-  ("BigUU" .
-   [1 0 0 0 0])
-  ("BigZS" .
-   [0 0 0 0 1])
-  ("Big" .
+  ("entre" .
+   [0 0 0 1 0])
+  ("document" .
+   [0 0 0 0 0 0 0 2])
+  ("begin" .
+   [0 0 1 0 0])
+  ("bigSS" .
+   [0 0 1 0 1])
+  ("bigGS" .
+   [0 0 0 0 2])
+  ("self" .
+   [1 0 0 1])
+  ("__init__" .
+   [0 0 0 0 0 1 0 0])
+  ("lsp" .
    [1 0 0])
-  ("Bi" .
+  ("a" .
+   [2])
+  ("return" .
+   [0 0 0 0 0 1])
+  ("bigMatrix" .
+   [0 0 1 0 1 0 0 0 3])
+  ("bigVector" .
+   [0 0 0 0 5 1 0 0 0])
+  ("ConstruccionDelSistemaGrande" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("linearSystemFromElasticProblem" .
+   [0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("sum" .
+   [0 0 1])
+  ("t_" .
    [0 1])
-  ("pres" .
-   [1 0 0 0])
-  ("ssor" .
-   [1 1 0 1])
-  ("precon" .
-   [0 1 0 0 0 0])
-  ("minres" .
-   [0 0 1 0 2 0])
-  ("krylov" .
-   [0 1 0 0 0 0])
-  ("np" .
+  ("tocsr" .
+   [0 0 0 1 0])
+  ("IOError" .
+   [0 1 0 0 0 0 0])
+  ("ILU_Precon" .
+   [0 0 2 0 0 0 0 0 0 0])
+  ("performance_decorator" .
+   [0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("impot" .
+   [1 0 0 0 0])
+  ("import" .
+   [0 0 1 0 0 1])
+  ("nu" .
    [1 0])
   ("numpy" .
    [0 0 0 0 1])
-  ("nu" .
+  ("np" .
    [1 0])
-  ("import" .
-   [0 0 0 0 0 1])
-  ("impot" .
-   [1 0 0 0 0])
-  ("performance_decorator" .
-   [0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("ILU_Precon" .
-   [0 0 2 0 0 0 0 0 0 0])
-  ("IOError" .
-   [0 1 0 0 0 0 0])
-  ("tocsr" .
-   [0 0 0 1 0])
-  ("t_" .
+  ("krylov" .
+   [0 1 0 0 0 0])
+  ("minres" .
+   [0 0 1 0 2 0])
+  ("precon" .
+   [0 1 0 0 0 0])
+  ("ssor" .
+   [1 1 0 1])
+  ("pres" .
+   [1 0 0 0])
+  ("Bi" .
    [0 1])
-  ("sum" .
-   [0 0 1])
-  ("linearSystemFromElasticProblem" .
-   [0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("ConstruccionDelSistemaGrande" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("bigVector" .
-   [0 0 0 0 2 0 0 0 0])
-  ("bigMatrix" .
-   [0 0 0 0 0 0 0 0 2])
-  ("return" .
-   [0 0 0 0 0 1])))
+  ("Big" .
+   [1 0 0])
+  ("BigZS" .
+   [0 0 0 0 1])
+  ("BigUU" .
+   [1 0 0 0 0])
+  ("BigUS" .
+   [0 0 0 0 1])
+  ("BiG" .
+   [1 0 0])
+  ("BiGZS" .
+   [0 0 0 1 1])
+  ("Lsp" .
+   [1 0 1])))
