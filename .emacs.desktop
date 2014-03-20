@@ -2,62 +2,39 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Wed Mar 19 23:34:19 2014
+;; Created Wed Mar 19 23:56:15 2014
 ;; Desktop file format version 206
-;; Emacs version 24.3.50.1
+;; Emacs version 24.3.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (21290 21419 188271 0) (desktop . "206") "leonardojofre@air-de-leonardo" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars . right) (foreground-color . "Black") (background-color . "White") (line-spacing) (left-fringe . 10) (right-fringe . 11) (menu-bar-lines . 1) (tool-bar-lines . 1) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . light) (cursor-color . "black") (environment) (display . "air-de-leonardo") (frameset--id . "2ADB-D518-040C-7CD9") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (visibility . t) (height . 64) (width . 200) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 16) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 56) (min-pixel-width . 140) (min-pixel-height-ignore . 28) (min-pixel-width-ignore . 112) (min-pixel-height-safe . 14) (min-pixel-width-safe . 28)) hc (pixel-width . 1436) (pixel-height . 882) (total-width . 205) (total-height . 63) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 715) (pixel-height . 882) (total-width . 102) (total-height . 63) (normal-height . 1.0) (normal-width . 0.5) (buffer "__init__.py" (selected) (hscroll . 0) (fringes 10 11 nil) (margins 3) (scroll-bars 15 3 t nil) (vscroll . 0) (dedicated) (point . 408) (start . 1))) (leaf (last . t) (pixel-width . 721) (pixel-height . 882) (total-width . 103) (total-height . 63) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Elpy Error*" (selected . t) (hscroll . 0) (fringes 10 11 nil) (margins 1) (scroll-bars 15 3 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring nil)
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/init.el" "~/cu/pymmgeo/static/form.py" "~/cu/pymmgeo/frontend/__init__.py" "~/tornado ejemplos/hw.py" "~/tornado ejemplos/hello\\,\\ world.py" "~/tornado ejemplos/" "~/Documents/variacional/software/tools.py" "/Users/leonardojofre/Documents/variacional/software/solucionSistemaGrandePETsc.py" "~/.emacs.d/" "~/Documents/variacional/software/solucionSistemaGrandePySparse.py" "~/Documents/variacional/software/SolucionDelSistemaGrande.py" "~/Documents/variacional/software/solucionSistemaGrandePETsc.py" "~/Documents/variacional/software/ConstruccionDelSistemaGrande.py" "~/.emacs.d/init.el" "/Users/leonardojofre/.emacs.d/init.el" "/Users/leonardojofre/Documents/variacional/software/solucionSistemaGrandePETsc.py"))
+(setq file-name-history '("~/.emacs.d/init.el" "/home/leonardo/Proyectos/quiebre-variacional/software/solucionSistemaGrandePETsc.py" "~/.emacs.d/init.el" "~/cu/pymmgeo/static/form.py" "~/cu/pymmgeo/frontend/__init__.py" "~/tornado ejemplos/hw.py" "~/tornado ejemplos/hello\\,\\ world.py" "~/tornado ejemplos/" "~/Documents/variacional/software/tools.py" "/Users/leonardojofre/Documents/variacional/software/solucionSistemaGrandePETsc.py" "~/.emacs.d/" "~/Documents/variacional/software/solucionSistemaGrandePySparse.py" "~/Documents/variacional/software/SolucionDelSistemaGrande.py" "~/Documents/variacional/software/solucionSistemaGrandePETsc.py" "~/Documents/variacional/software/ConstruccionDelSistemaGrande.py" "~/.emacs.d/init.el" "/Users/leonardojofre/.emacs.d/init.el" "/Users/leonardojofre/Documents/variacional/software/solucionSistemaGrandePETsc.py"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/Users/leonardojofre/cu/pymmgeo/frontend/__init__.py"
-  "__init__.py"
-  'python-mode
-  '(global-auto-revert-mode linum-mode auto-complete-mode flymake-mode highlight-indentation-mode yas-minor-mode elpy-mode eldoc-mode)
-  408
-  '(45 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/Users/leonardojofre/tornado ejemplos/hw.py"
-  "hw.py"
-  'python-mode
-  '(global-auto-revert-mode linum-mode auto-complete-mode flymake-mode highlight-indentation-mode yas-minor-mode elpy-mode eldoc-mode)
-  271
-  '(156 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/leonardojofre/cu/pymmgeo/static/form.py"
-  "form.py"
-  'python-mode
-  '(global-auto-revert-mode linum-mode auto-complete-mode flymake-mode highlight-indentation-mode yas-minor-mode elpy-mode eldoc-mode)
-  265
-  '(373 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/Users/leonardojofre/.emacs.d/init.el"
+  "/home/leonardo/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
   '(global-auto-revert-mode linum-mode)
-  1
-  '(1 nil)
+  2215
+  '(2109 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/leonardo/Proyectos/quiebre-variacional/software/solucionSistemaGrandePETsc.py"
+  "solucionSistemaGrandePETsc.py"
+  'python-mode
+  '(global-auto-revert-mode linum-mode auto-complete-mode flymake-mode highlight-indentation-mode yas-minor-mode elpy-mode eldoc-mode)
+  1210
+  '(1210 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
 
