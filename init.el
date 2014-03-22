@@ -9,6 +9,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; usar por defecto encoding utf8
+(prefer-coding-system 'utf-8)
+
 (add-hook 'LaTeX-mode-hook
       (lambda()
         (local-set-key [C-tab] 'TeX-complete-symbol)))
