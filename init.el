@@ -71,7 +71,7 @@
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
 
-;; setear el interprete de anaconda solo cuando estoy en mac
+;; setear el interprete python2.7 de macport solo cuando estoy en mac
 (if (eq system-type 'darwin)
- '(elpy-rpc-python-command "~/anaconda/bin/python")
- '(python-shell-interpreter "~/anaconda/bin/python")) )
+ '(elpy-rpc-python-command "python2.7")
+ '(python-shell-interpreter "python2.7")) )
